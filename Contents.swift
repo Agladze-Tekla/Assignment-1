@@ -57,14 +57,12 @@ print (sum100)
 
 print ("Problem 5")
 let sentence: String = "TBC Academy"
-let sentLength: Int = sentence.count
-var revSentence:String = ""
+var reversedString : String = ""
 print(sentence)
-for i in 1...sentLength {
-   // print(sentence.index(sentLength - i))
-//revSentence += String(sentence[sentLength-i])
+for letter in sentence {
+    reversedString = String(letter) + reversedString
 }
-print(revSentence)
+print(reversedString)
 
 
 
